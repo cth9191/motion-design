@@ -1,0 +1,37 @@
+Product rendering reel, 16:9, 24fps, 15 seconds, PHOTOREAL TROPICAL PRODUCT FILM STYLE — physically-based product animation set in a real tropical environment: hard golden sunlight through jungle canopy, volumetric light shafts in humid air, wet volcanic stone, glossy rain-fresh foliage, dense real-scale condensation on the product; premium render-reel polish but physically honest — droplets with gravity trails, fruit with real pith and skin texture, nothing rubber-smooth.
+Fully silent piece — no soundtrack, no sound design; all rhythm is carried by slow camera drift, one levitation beat and the final fruit-drop impact alone.
+The world: a lush tropical jungle clearing — layered palm and monstera foliage in deep greens, a slab of wet dark volcanic stone as the product stage, humid air at 30% haze with golden sun shafts breaking through the canopy from upper-left, drifting pollen motes and occasional falling water droplets. The environment is alive but never steals focus: background always in shallow depth of field.
+
+PALETTE (locked, environment):
+#0E3B24 — JUNGLE DEEP: shadowed foliage, background darkness
+#3FA65B — LEAF GREEN: lit foliage mid-tones
+#FFC63F — SUN GOLD: light shafts, rim light, specular kicks
+#1B6E75 — LAGOON TEAL: cool fill from shaded side, wet stone tint
+#FFFFFF — WHITE: specular highlights, condensation sparkle
+BOTTLE COLORS: exactly as defined by reference <<<image_1>>> — no reinterpretation.
+Color rule: environment lives in green-gold-teal; the bottle's own colors come only from <<<image_1>>> and must never bleed onto foliage or stone; fruits carry their natural colors.
+
+THE HERO: the HIGGS bottle exactly as reference <<<image_1>>> — silhouette, proportions, cap design, label design, wordmark placement, materials and colors are locked to <<<image_1>>> in every shot with zero redesign. Identity anchor: the single most distinctive design feature visible in <<<image_1>>> (its signature silhouette/label element) must read clearly in every beat. Dense real-scale condensation over the bottle: beads 0.5–2mm at ~70% coverage with gravity trails and merging drops. Any label micro-text beyond the wordmark is greeked and unreadable.
+
+THE FRUITS: a recurring cast of real tropical fruits — a halved mango (amber flesh), a small whole pineapple, lime wedges, a halved passion fruit (dripping pulp), and a split coconut. All photoreal: fibrous skins, wet flesh, juice droplets. Fruits fly and drift around the bottle throughout the film on slow curved paths — near ones defocused, far ones sharp — never touching or occluding the bottle's identity anchor for more than 4 frames.
+
+NO ON-SCREEN TEXT: zero graphic type, titles, captions or UI anywhere. The ONLY readable text is the wordmark printed on the bottle per <<<image_1>>>; all other label text greeked.
+
+SAFE ZONES (9:16): top 12% and bottom 15% of frame carry no critical product read — the bottle's wordmark and identity anchor always sit inside the central 73% of frame height; fruits, foliage, light shafts and droplets may enter the margins.
+
+MOTION LANGUAGE (global): museum-slow reverence DNA inside a living world. Every camera move is a single continuous motorized drift — boom-ups, lateral dollies, slow orbital tilts — with long ease-in and ease-out. Fruits obey slow orbital drift: constant gentle momentum, no sudden direction changes. One levitation beat where the bottle and fruits share suspended gravity; everywhere else the bottle stands and physics is strict. Transitions are soft cuts on stillness — no dissolves, no morphs, no speed ramps except the final slow-motion fruit impact.
+
+BEAT SHEET:
+0.0–2.5s — Medium close-up on the bottle standing on wet volcanic stone, jungle bokeh behind, one golden sun shaft raking it from upper-left. Slow boom-up along the wet body from base to cap, condensation catching sun sparkle; a lime wedge and a mango half drift slowly through the defocused foreground.
+2.5–4.5s — Soft cut: three identical HIGGS bottles staggered in depth on the stone slab, monstera leaves framing the edges. Slow lateral dolly right with shallow depth of field; rack focus travels from the rear bottle to the hero bottle facing camera, wordmark and identity anchor dead-center. A passion fruit half floats past mid-ground, pulp glistening.
+4.5–8.5s — Soft cut: LEVITATION. The hero bottle floats mid-air at a gentle 15° tilt over the stone, rotating slowly on its long axis, surrounded by six fruits on their own slow orbits at different heights and depths — pineapple far and sharp, mango half near and defocused, lime wedges crossing between. A sun shaft flares behind the bottle as a golden halo; loose droplets and pollen hang in the humid air. The camera performs one slow half-orbit around the floating system.
+8.5–11.0s — Soft cut: extreme macro on the bottle's neck and cap per <<<image_1>>>, identity anchor entering frame lower-left. Slow orbital tilt around the cap; condensation in crisp macro, a faint wisp of cool vapor curling off the neck against the warm backlight. Focus breathes from cap to label.
+11.0–15.0s — Soft cut: final tableau. The bottle stands on the wet stone beside a heavy faceted glass filled with the drink (liquid color per <<<image_1>>>'s product), jungle glowing gold-green behind. A lime wedge and two passion fruit halves fall into the glass in extreme slow motion — impact crowns arc out, juice and droplets landing on the dark stone. The splash settles, liquid stills, one condensation bead runs down the bottle. Static hero end frame → hold 1.0s → silent tail.
+
+CONTENT SAFETY / NON-IP: invented beverage brand "HIGGS" with bottle design per proprietary reference <<<image_1>>>; the design does NOT copy Coca-Cola contour bottle trade dress, does NOT copy Fanta/Mirinda/Sprite trade dress, no real brand devices. All label micro-text greeked. No real people, logos, landmarks, or OS interfaces.
+
+PRODUCT CONSISTENCY: restate in every generation — the bottle matches reference <<<image_1>>> exactly: silhouette, proportions, cap, label layout, wordmark, materials, colors; identity anchor from <<<image_1>>> must read in every beat; condensation ~70%. Bottle size and design never change across beats; in the three-bottle row all bottles are identical to <<<image_1>>>. Fruit cast is fixed — mango half, pineapple, lime wedges, passion fruit halves, split coconut — same fruits across all beats, natural colors locked.
+
+CAMERA & MOTION: allowed — slow motorized boom-ups, lateral dollies with rack focus, one half-orbit around the levitating bottle, slow orbital macro tilts, one slow-motion fruit-drop impact. Forbidden — handheld shake, whip pans, crash zooms, dissolves, morphs, speed ramps outside the final impact, any fast move. Depth of field cinematic and shallow throughout; motion blur natural to a real shutter; slow-motion splash frames crisp.
+
+RENDER: physically-based photoreal quality — glass/bottle materials per <<<image_1>>> with true refraction, condensation with real refraction and varied bead sizes, fruit with fibrous skin and wet flesh subsurface scatter, volumetric golden sun shafts in 30% humid haze, wet volcanic stone with broken specular reflections, foliage with translucent backlit leaves. Must NOT appear: on-screen text or graphic overlays of any kind, rubber-smooth CGI plastic look, film grain overlay, vignette, lens flares, light streaks, floating bokeh circles, chromatic aberration, watermark of any kind.

@@ -1,0 +1,22 @@
+name: Validate skill library
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: "3.13"
+      - name: Validate sources, templates and gallery
+        run: python skills/higgsfield-motion-design/scripts/build_gallery.py
+      - name: Check generated files are current
+        run: git diff --exit-code -- skills/higgsfield-motion-design/assets/gallery.html skills/higgsfield-motion-design/references/preset-index.md

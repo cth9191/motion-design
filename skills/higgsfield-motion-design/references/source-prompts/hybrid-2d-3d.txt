@@ -1,0 +1,64 @@
+University launch film, 16:9, 30fps, 15 seconds, HYBRID STYLE: premium 3D CGI render fused with flat 2D vector motion. The 3D layer — physical objects of the university (buildings, books, cap, medal) — rendered Octane-grade: PBR materials, soft studio lighting, real physics, slow-mo moments. The 2D layer — characters, doodles, UI chips, scribble arrows — is pure flat vector with bold shapes and no outlines, animated with snappy squash-stretch, living ON TOP of and AROUND the 3D objects: vector characters walk on rendered surfaces, flat doodles orbit real geometry. The two layers stay visually distinct — 3D is glossy and lit, 2D is flat and graphic — but physically interact: this contact IS the style. Fully silent piece — no soundtrack, no sound design; all rhythm is carried by motion timing and cuts alone.
+
+PALETTE (locked, vibrant):
+Acid             #D1EF17 — brand base: 3D building accents, 2D highlights, accent words
+Deep ink         #14151B — dark world background, type on light
+Electric violet  #6C2BFF — 2D character clothing, secondary shapes
+Hot coral        #FF5A4E — 2D accents, doodle strokes
+Off white        #F7F4EC — light world background, type on dark
+Warm tan         #E8A87C — character skin, flat fill
+
+3D HERO OBJECTS (Octane-grade render):
+— THE MONOLITH: an original campus building as a bold minimal 3D form — a matte concrete slab tower with one full-height acid #D1EF17 glass spine running up its face and a cantilevered top floor. Invented architecture, no real campus.
+— THE BOOKS: oversized 3D hardcover books, matte covers in palette colors with acid page edges.
+— THE CAP: a graduation cap, matte deep ink with an acid tassel, physically simulated.
+— THE MEDAL: a chrome disc on an acid ribbon.
+All 3D objects share one lighting rig: large soft key upper-left, subtle acid bounce fill, soft contact shadows.
+
+2D VECTOR LANGUAGE: flat characters — round heads, dot eyes, chunky bodies, violet/coral clothing, lime-acid sneakers — animated with anticipation, squash-stretch up to 20%, smear frames on fast moves. Flat doodle elements: scribble arrows, stars, speech-bubble chips, hand-drawn circles — drawn on with 2-frame stroke animation. UI chips: rounded rects, solid fills, snap in with springs. 2D elements cast NO shadows and receive NO lighting — flat at all times, even when standing on lit 3D surfaces.
+
+TYPE TREATMENT: ultra-bold geometric sans — off-white on dark beats, deep ink on light beats. Headlines bounce in word by word with squash-stretch, staggered 40ms, wobble-settle. One accent word per headline gets an acid #D1EF17 chunky marker swipe drawing behind it in 200ms. Exits: letters pop away like bubbles.
+
+BEAT SHEET:
+0.0–1.8s — Deep ink void. The MONOLITH rises from below frame in one powerful 3D slow-mo move, dust-free and clean, its acid glass spine igniting floor by floor as it rises — while flat 2D vector stars and scribble sparks pop around its silhouette on every ignition, staggered. Headline bounces in:
+"Built different."
+Acid swipe on: "different."
+1.8–3.6s — The camera orbits the tower 30 degrees (3D move) — and a parade of tiny flat 2D characters walks OUT of the building's front door and along the bottom frame edge like a graphic frieze, each carrying a flat oversized object: a laptop, a beaker, a guitar, a basketball. A doodle arrow draws itself pointing at the door, chip pops: "8 faculties. 1 door."
+3.6–5.4s — HARD CUT to off-white world. THE BOOKS: three giant 3D books stand upright like monuments on the white floor. A 2D character runs in with smear frames, leaps with anticipation-squash — and climbs the books like stairs, hopping cover to cover with bouncy landings; each landing makes the 3D book physically tilt 2 degrees and settle. On the top book, the character plants a flat acid flag that unfurls in 3 vector frames. Headline:
+"Climb faster."
+Acid swipe on: "faster."
+5.4–7.2s — MATCH CUT: the flag's acid color floods the frame — acid #D1EF17 world. THE CAP: one 3D graduation cap floats center, rotating slowly in glossy slow-mo, tassel swinging with real physics. Around it, a ring of flat 2D doodles orbits in the opposite direction — scribble atoms, a coral lightning bolt, a violet star, a flat coffee cup — flat shapes circling a lit object. Three chips snap in below, staggered:
+"scholarships up to 100%"  ·  "english-track programs"  ·  "dorms on campus"
+7.2–9.0s — The cap TOSSES itself upward out of frame (3D slow-mo with tassel whip) — and where it exits, a flat 2D sun pops in its place with a squash-bounce; the world hard-switches to off-white. A 2D lecture scene assembles flat: five vector characters snap into chairs, staggered 60ms, facing a large 3D floating screen — a real rendered glass slab with soft reflections — on which flat vector charts draw themselves: a bar chart racing up, a scribble circle around the tallest bar. Chip: "small groups. real projects."
+9.0–10.8s — One character stands up (anticipation, stretch) and their flat dot-eyes go wide — the 3D glass screen tilts down toward them like a door and they WALK ONTO IT, walking up the glass surface as it becomes a ramp into the dark world — the flat figure ascending a glossy reflective plane, their flat colors doubling in its reflection (the reflection is the only lighting 2D ever gets — as a mirror image, not shading). Headline in the dark above:
+"From lecture to launch."
+Acid swipe on: "launch."
+10.8–12.6s — At the top of the ramp: THE MEDAL — the chrome 3D disc on its acid ribbon descends in slow-mo, spinning once, throwing a real light glint across the frame. The 2D character reaches up; the medal lowers around their round head and settles on their chest with a physical bounce of the ribbon. Flat confetti bursts — triangles, circles, squiggles in all palette colors — while the medal keeps its true chrome reflections through the flat storm. Chip: "class of 2027 — applications open"
+12.6–15.0s — Final lockup: deep ink world. The MONOLITH stands small at frame bottom, acid spine glowing; the 2D character with the medal stands flat on its cantilevered roof, tiny, victorious, one fist up. Wordmark bounces in above, huge:
+"HIGGS"
+in off-white ultra-bold, with "UNIVERSITY" snapping in beneath in acid, letter-spaced wide. Secondary line fades: "Apply in 4 minutes."
+An acid pill-button wobbles in: "Admissions open"
+Hold 0.8 seconds — 3D tower breathing in light, 2D hero frozen mid-triumph — then all 2D elements pop away like bubbles, the tower fades last, 400ms to black. Silent tail.
+
+COPY LIST — exact strings, nothing else appears in frame:
+"Built different."
+"8 faculties. 1 door."
+"Climb faster."
+"scholarships up to 100%"
+"english-track programs"
+"dorms on campus"
+"small groups. real projects."
+"From lecture to launch."
+"class of 2027 — applications open"
+"HIGGS"
+"UNIVERSITY"
+"Apply in 4 minutes."
+"Admissions open"
+
+CONTENT SAFETY / NON-IP: "Higgs University" is an original fictional institution — the monolith building is invented architecture copying no real campus or landmark; no real university names, crests, or seals appear. Characters are original featureless vector figures. All UI chips are generic primitives.
+
+STYLE CONSISTENCY (the core rule): 3D objects are ALWAYS fully lit, PBR, casting soft shadows, with real physics. 2D elements are ALWAYS flat solid fills, zero gradients, zero outlines, zero received lighting, zero cast shadows — even standing on glossy 3D surfaces (only mirror reflections of them may appear on 3D glass/chrome). The layers interact physically (books tilt under character hops, ribbon bounces on the flat chest) but never exchange render properties. Breaking this rule breaks the style.
+
+CAMERA & MOTION: 3D beats use cinematic moves — the rise, 30-degree orbit, slow-mo cap toss, medal descent — always ease-out, always settling. 2D beats and elements use snappy cartoon timing: anticipation, smear frames, overshoot, hold. Hard cuts and match cuts on color or action only. No handheld, no shake.
+
+RENDER: 3D — Octane-grade: matte concrete with fine micro-texture, acid glass spine with soft inner glow and real refraction, chrome medal with crisp reflections, cloth-sim tassel, soft contact shadows on clean floors. 2D — razor-sharp flat vector at any scale, solid palette fills only. Acid #D1EF17 must match EXACTLY across both layers — the color is the bridge between worlds. No grain, no vignette, no lens flare — vibrant, premium, playful.

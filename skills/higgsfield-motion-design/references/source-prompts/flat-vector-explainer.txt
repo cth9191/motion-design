@@ -1,0 +1,66 @@
+App launch film, 16:9, 30fps, 15 seconds, SUPER 2D VECTOR MOTION — flat illustration style: bold geometric shapes, solid fills, no gradients except where locked, no outlines, no textures, no 3D, no photorealism. Everything is crisp vector: rounded rectangles, perfect circles, chunky limbs, oversized simple shapes. Motion is snappy shape-morph animation: elements stretch, squash, morph into one another, and backgrounds swap color in hard full-frame switches ON the beat. Fully silent piece — no soundtrack, no sound design; all rhythm is carried by cuts, morphs and color switches alone.
+
+PALETTE (locked, vibrant):
+Electric violet  #6C2BFF — brand base, app UI
+Hot coral        #FF5A4E — gym world 1
+Sunny yellow     #FFC838 — gym world 2
+Aqua pop         #21D0C3 — gym world 3
+Deep navy        #1B1B3A — type, character linework-free silhouette details
+Off white        #FFF8F0 — cards, type on dark, breathing space
+Lime punch       #C6F432 — accent: checkmarks, price chips, CTA.
+
+THE HERO CHARACTER: a simple flat vector person — round head, no facial features except two dot eyes, chunky rounded body in off-white tee and deep navy shorts, oversized rounded sneakers in lime punch. Genderless, ageless, race-neutral (warm tan #E8A87C skin tone as flat fill). Moves with exaggerated 2D animation principles: anticipation squash before every jump, stretch in flight, overshoot on landings, smear frames on fast moves. Same character in every beat.
+
+THE APP OBJECT: a rounded-rectangle phone shape in electric violet #6C2BFF with an off-white screen showing ultra-simplified vector UI — map pins, gym cards as colored rounded rects, one big lime circular CHECK button. UI elements are chunky and readable at a glance, never detailed, never a real interface.
+
+TYPE TREATMENT: fat geometric sans, ultra-bold, set in deep navy on light beats and off-white on color beats. Headlines enter as shape-morphs: letters bounce in with squash-stretch, staggered 30ms, landing with a wobble-settle. One word per headline gets a lime punch #C6F432 highlight swipe — a chunky marker stroke drawing behind it in 200ms. Exits: letters pop away like bubbles, staggered.
+
+MOTION LANGUAGE (global): beats land every 1.5–2 seconds on HARD full-frame background color switches — the world recolors instantly, on the cut, like turning a page. Between switches, everything is elastic: squash-stretch up to 20%, smear frames on whips, shape-morphs as transitions (a dumbbell morphs into a map pin, a pin into a yoga mat). Nothing eases linearly — everything overshoots and settles. One clear leading element per transition.
+
+BEAT SHEET:
+0.0–1.6s — Off-white frame. The hero character stands center, deflated posture, dot eyes blinking. Above them, three chunky gym dumbbells fall from top frame and land around them one by one — THUD, THUD, THUD — each landing with a squash and a small jump of the character. Headline bounces in:
+"One gym is a cage."
+Lime swipe on: "cage."
+1.6–3.2s — The character's phone slides up from bottom frame into their hand — oversized, violet, friendly. The screen lights: a vector map with five colored pins popping in with springs, staggered 60ms (coral, yellow, aqua, coral, yellow). The character's dot eyes go wide (scale 130%). Headline morphs in above:
+"Unlock every gym."
+Lime swipe on: "every."
+3.2–4.8s — HARD SWITCH to hot coral #FF5A4E world: BOXING GYM. Flat vector heavy bag swings in from top on a chunky chain; the character throws two cartoon punches with smear frames — jab, cross — bag squashing on each hit. A lime check chip pops top-right with a wobble: "Booked · 2 min ago". Simple flat vector props: one kettlebell, one rope coil on the floor line.
+4.8–6.4s — MATCH MORPH: the heavy bag stretches and morphs into a yoga mat rolling out — and the world HARD-SWITCHES to sunny yellow #FFC838: YOGA STUDIO. The character flows into a wobbly tree pose, arms overshooting into balance, one sneaker on the opposite knee. A round flat sun shape hangs top-left. Lime chip pops: "Booked · same pass". Headline slides along the floor line:
+"Any studio. Same tap."
+Lime swipe on: "Same tap."
+6.4–8.0s — MATCH MORPH: the yoga mat rolls up into a cylinder that morphs into a swimming pool lane float — world HARD-SWITCHES to aqua pop #21D0C3: POOL. The character swims across frame in flat side-view, stylized water as three wavy vector bands, kick splashes as simple white circles popping. Goggles (two joined circles) snap onto their face with a boing. Lime chip: "Booked · this morning".
+8.0–9.6s — The character bursts out of the water upward with stretch — and lands back in the off-white world center frame, confident posture now, tiny bounce settle. Around them, the three worlds appear as three floating rounded cards (coral boxing, yellow yoga, aqua pool), orbiting slowly. The phone floats beside them, screen showing all three cards stacked with lime checks. Headline bounces in:
+"One pass. Whole city."
+Lime swipe on: "Whole city."
+9.6–11.2s — UI CLOSE-UP BEAT: the phone scales up to fill 70% of frame. On screen, a chunky vector flow in three quick steps, each a spring snap: (1) a map pin bounces, (2) a gym card slides up with a price chip "from $4 / visit", (3) the big lime circular CHECK button gets pressed by a giant flat cursor-finger — the button squashes deep and pops back with a burst of simple confetti shapes (triangles, circles, squiggles) in all palette colors.
+11.2–12.8s — Confetti clears with a wipe. The character now RUNS left-to-right across frame in a joyful loop cycle with smear frames, and the background strobe-switches behind them through all three world colors — coral, yellow, aqua — one per stride, gym props of each world parallaxing past. Headline holds steady over the chaos, anchored:
+"Never bored. Never locked in."
+Lime swipe on: "Never locked in."
+12.8–15.0s — Final lockup: HARD SWITCH to electric violet #6C2BFF. The character skids to a stop center frame with an overshoot lean, dot eyes happy-squint. The phone floats up beside them; its screen morphs into the wordmark:
+"HiggsFit"
+in off-white ultra-bold, landing with one big squash-bounce. Beneath, secondary line pops in:
+"Every gym. One pass."
+And a lime punch pill-button wobbles in below: "Try free — 7 days"
+Character gives one tiny fist pump (anticipation, snap, settle). Hold 0.8 seconds, then all elements pop away like bubbles, staggered 40ms, leaving clean violet — 300ms fade to black. Silent tail.
+
+COPY LIST — exact strings, nothing else appears in frame:
+"One gym is a cage."
+"Unlock every gym."
+"Booked · 2 min ago"
+"Booked · same pass"
+"Any studio. Same tap."
+"Booked · this morning"
+"One pass. Whole city."
+"from $4 / visit"
+"Never bored. Never locked in."
+"HiggsFit"
+"Every gym. One pass."
+"Try free — 7 days".
+
+CONTENT SAFETY / NON-IP: "HiggsFit" is an original fictional app — its UI is generic chunky vector primitives, not a replica of any real fitness or booking app interface. No real gym brands, no franchise names, no logos on props or walls. The character is an original featureless vector figure, not styled after any known mascot or illustration system.
+
+CHARACTER & STYLE CONSISTENCY: same hero in every beat — identical proportions, tee, navy shorts, lime sneakers, dot eyes. Flat fills only: zero gradients, zero outlines, zero shadows except one flat darker-tone ellipse under the character as ground contact. All props built from basic geometry — circles, rounded rects, simple curves.
+
+CAMERA & MOTION: camera is LOCKED — all dynamism lives in the elements, morphs and background switches. The only camera-like move is the phone scale-up at 9.6s, executed as an element scale, not a push-in. Smear frames on fast actions, held poses between actions — classic 2D timing: fast-in, hold, fast-out.
+
+RENDER: pure flat vector, razor-sharp edges at any scale, solid fills from the locked palette only. Confetti and splash effects as simple geometric particles. No grain, no texture, no blur of any kind, no glow — flat, loud, joyful, like a premium animated illustration brought to life.

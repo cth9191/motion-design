@@ -1,0 +1,894 @@
+{
+  "title": "Motion library",
+  "version": 4,
+  "source_url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+  "presets": [
+    {
+      "id": "kinetic-typography",
+      "title": "Kinetic typography",
+      "category": "Type & software",
+      "tagline": "Let the words do the moving.",
+      "description": "A fixed-frame sequence of headline builds, six image cards, an icon bridge, and a scrolling capability list.",
+      "best_for": "Announcements, offers, courses, and software launches.",
+      "aliases": [
+        "kinetic type",
+        "animated text",
+        "type animation",
+        "typography"
+      ],
+      "color": "#DADCEE",
+      "required": [
+        "A message or something to promote."
+      ],
+      "optional": [
+        "Exact wording",
+        "Brand colors or logo",
+        "Photos for the floating cards"
+      ],
+      "ending": "hold",
+      "strategy": "Text-first; optional thumbnail images. No hero image required.",
+      "mechanic": "Words and image cards collapse into a graphic bridge, then resolve as a scrolling list and final held statement.",
+      "preserve": [
+        "Five graphic phases occur inside one fixed frame; no simulated camera drift.",
+        "Six cards never obscure the headline and transform together before the bridge.",
+        "Scrolling emphasis remains aligned with stationary arrows."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "Recreate Any Video from a Reference",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/75a6c434-a18a-4484-81b0-387308743279.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "minimax_h3",
+        "prompt_sha256": "8a38483e851f73243f9197a7d412c18ad79a64a5ba433fc07ca7bbb79e4c9d24",
+        "prompt_chars": 5680,
+        "prompt_path": "references/source-prompts/kinetic-typography.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/kinetic-typography.md",
+      "template": "references/templates/kinetic-typography.md",
+      "template_version": 4,
+      "structure": "The published prompt specifies a 10-second continuous flat composition with a final hold, despite being described as a loop.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 3,
+          "label": "Phase 1 — headline and orbiting labels"
+        },
+        {
+          "start_s": 3,
+          "end_s": 6,
+          "label": "Phase 2 — six image cards"
+        },
+        {
+          "start_s": 6,
+          "end_s": 8.25,
+          "label": "Phase 3 — collapse and bridge"
+        },
+        {
+          "start_s": 8.25,
+          "end_s": 11.25,
+          "label": "Phase 4 — inline icon and replacement"
+        },
+        {
+          "start_s": 11.25,
+          "end_s": 15,
+          "label": "Phase 5 — scrolling list and conclusion"
+        }
+      ]
+    },
+    {
+      "id": "glass-ui-launch",
+      "title": "Glass UI launch",
+      "category": "Type & software",
+      "tagline": "Turn a workflow into a visual story.",
+      "description": "Layered glass panels carry a product from problem through action to a clear outcome.",
+      "best_for": "SaaS, AI tools, dashboards, and service launches.",
+      "aliases": [
+        "glass UI",
+        "SaaS launch",
+        "Tepsira",
+        "optical glass"
+      ],
+      "color": "#C8DFEF",
+      "required": [
+        "A product description or website."
+      ],
+      "optional": [
+        "Key benefit",
+        "UI screenshots",
+        "Brand palette"
+      ],
+      "ending": "hold",
+      "strategy": "One complete-film request. Prompt-only when sufficient; otherwise minimal existing product references. Storyboards are optional.",
+      "mechanic": "An activation signal travels through connected interface objects and turns an unresolved task into a completed result.",
+      "preserve": [
+        "Seven shots with cuts at 2.25, 5, 6, 8.5, 9.5 and 12.5 seconds at the default duration.",
+        "Both a dark macro and a dark pullback survive the adaptation.",
+        "The two macros have no main headline, and their graphic match uses the same workflow evidence."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "Launch Video from a Website Link",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/fee13558-1de4-46cb-80c6-443935cb8257.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "marketing_studio_video",
+        "prompt_sha256": "674ac5c53f5b63e7cd449936c55f4095fecec023554ca9a20a9b6564626932ce",
+        "prompt_chars": 6085,
+        "prompt_path": "references/source-prompts/glass-ui-launch.txt",
+        "prompt_storage": "verbatim captured text; hash verified",
+        "observed_workflow": {
+          "endpoint": "marketing_studio_video",
+          "format_label": "SaaS",
+          "duration_s": 15,
+          "evidence": "https://www.youtube.com/watch?v=2OwMjg5As2g&t=116s"
+        }
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/glass-ui-launch.md",
+      "template": "references/templates/glass-ui-launch.md",
+      "template_version": 4,
+      "structure": "Seven source shots, source cut times retained at 15 seconds.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 2.25,
+          "label": "Shot 1 — select inside the problem"
+        },
+        {
+          "start_s": 2.25,
+          "end_s": 5,
+          "label": "Shot 2 — activate the workflow"
+        },
+        {
+          "start_s": 5,
+          "end_s": 6,
+          "label": "Shot 3 — dark activity macro"
+        },
+        {
+          "start_s": 6,
+          "end_s": 8.5,
+          "label": "Shot 4 — reveal the response"
+        },
+        {
+          "start_s": 8.5,
+          "end_s": 9.5,
+          "label": "Shot 5 — process trace macro"
+        },
+        {
+          "start_s": 9.5,
+          "end_s": 12.5,
+          "label": "Shot 6 — outcome and evidence"
+        },
+        {
+          "start_s": 12.5,
+          "end_s": 15,
+          "label": "Shot 7 — centered brand resolution"
+        }
+      ]
+    },
+    {
+      "id": "product-hyper-motion",
+      "title": "Product hyper-motion",
+      "category": "Products",
+      "tagline": "Build the reveal around the product.",
+      "description": "A physical product launches into a tunnel of components, then assembles into a hero shot.",
+      "best_for": "Food, drinks, beauty, and products with recognizable ingredients or parts.",
+      "aliases": [
+        "ingredient tunnel",
+        "burger",
+        "Higgs Burger",
+        "hyper motion",
+        "food assembly"
+      ],
+      "color": "#EAC3BE",
+      "required": [
+        "A product description; a product image if its appearance must match."
+      ],
+      "optional": [
+        "Ingredients or component list",
+        "Brand assets",
+        "Closing offer or CTA"
+      ],
+      "ending": "endcard",
+      "strategy": "Hero reference plus a designed endcard; optional start frame.",
+      "mechanic": "A product component triggers a flight through its ingredients, which converge into the finished hero.",
+      "preserve": [
+        "Both tunnel transitions inherit the specified component motion.",
+        "Assembly order and persistence are correct; no landed part disappears.",
+        "Counter-orbit is visible, with camera and parts traveling opposite ways."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "3. Hyper-Motion (the style every brand orders)",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/d1e752b7-ea6b-4553-98c6-15c8f3bf0cb4.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "marketing_studio_video",
+        "prompt_sha256": "aebe1f740359544f649f91092b78d28924903b989e6cd9549cc9c672589eb7bf",
+        "prompt_chars": 12124,
+        "prompt_path": "references/source-prompts/product-hyper-motion.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/product-hyper-motion.md",
+      "template": "references/templates/product-hyper-motion.md",
+      "template_version": 4,
+      "structure": "Seven source shots and their cut times are preserved.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 2,
+          "label": "Shot 1 — tactile preparation macro"
+        },
+        {
+          "start_s": 2,
+          "end_s": 2.8,
+          "label": "Shot 2 — physical trigger"
+        },
+        {
+          "start_s": 2.8,
+          "end_s": 5.3,
+          "label": "Shot 3 — travel through components"
+        },
+        {
+          "start_s": 5.3,
+          "end_s": 6,
+          "label": "Shot 4 — return to the surface"
+        },
+        {
+          "start_s": 6,
+          "end_s": 10.5,
+          "label": "Shot 5 — counter-orbit assembly"
+        },
+        {
+          "start_s": 10.5,
+          "end_s": 12,
+          "label": "Shot 6 — overhead hero"
+        },
+        {
+          "start_s": 12,
+          "end_s": 15,
+          "label": "Shot 7 — graphic endcard build"
+        }
+      ]
+    },
+    {
+      "id": "tropical-product",
+      "title": "Tropical product",
+      "category": "Products",
+      "tagline": "Give the product a place you can feel.",
+      "description": "Slow tropical product photography, a three-product depth study, suspended ingredients, and a final serving impact.",
+      "best_for": "Beverages, skincare, fragrances, and ingredient-led products.",
+      "aliases": [
+        "tropical",
+        "jungle product",
+        "fruit relay",
+        "tropical product film"
+      ],
+      "color": "#D2DDB6",
+      "required": [
+        "A product or range, with a reference if packaging must match."
+      ],
+      "optional": [
+        "Ingredient or flavor variants",
+        "Label artwork",
+        "Brand palette"
+      ],
+      "ending": "hold",
+      "strategy": "One actual product identity, repeated unchanged across five scene compositions.",
+      "mechanic": "A consistent product moves from grounded beauty views to one suspended tableau and a tactile final impact.",
+      "preserve": [
+        "Camera remains slow through all five compositions.",
+        "Only shot 3 levitates the hero; shot 2 repeats identical packages.",
+        "Packaging stays stable and the final physical action matches the real product."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "Hyper-Motion from One Message",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/a95756c8-1f3f-4d93-9ea9-a14832aba4bd.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "marketing_studio_video",
+        "prompt_sha256": "d0384bf1d9a891e538d98028ab48a5cba75a35e6d9a7d83bf3c6fc4e0012cdac",
+        "prompt_chars": 7425,
+        "prompt_path": "references/source-prompts/tropical-product.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/tropical-product.md",
+      "template": "references/templates/tropical-product.md",
+      "template_version": 4,
+      "structure": "Five source compositions with slow motion, not a fast hyper-motion or variant-relay film.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 2.5,
+          "label": "Shot 1 — condensation reveal"
+        },
+        {
+          "start_s": 2.5,
+          "end_s": 4.5,
+          "label": "Shot 2 — identical depth row"
+        },
+        {
+          "start_s": 4.5,
+          "end_s": 8.5,
+          "label": "Shot 3 — suspended product system"
+        },
+        {
+          "start_s": 8.5,
+          "end_s": 11,
+          "label": "Shot 4 — closure macro"
+        },
+        {
+          "start_s": 11,
+          "end_s": 15,
+          "label": "Shot 5 — serving impact and hold"
+        }
+      ]
+    },
+    {
+      "id": "exploded-product",
+      "title": "Exploded product",
+      "category": "Products",
+      "tagline": "Show what makes it work.",
+      "description": "Parts separate along one axis while macro camera moves reveal the product inside.",
+      "best_for": "Watches, audio hardware, electronics, and engineered products.",
+      "aliases": [
+        "watch",
+        "exploded view",
+        "component fly-through",
+        "macro fly-through"
+      ],
+      "color": "#CCD0D8",
+      "required": [
+        "A product reference and the components or features to show."
+      ],
+      "optional": [
+        "Verified specifications",
+        "CAD views or teardown images",
+        "Brand artwork"
+      ],
+      "ending": "hold",
+      "strategy": "Hero plus component reference where accuracy matters.",
+      "mechanic": "The complete product separates into an ordered component stack, which the camera traverses before resolution.",
+      "preserve": [
+        "One unbroken camera route connects separation, all four macro stops and reassembly.",
+        "Rigid parts retain their original number, order and axis.",
+        "Each leader follows its own component; only one metric is visible."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "The Watch",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/9eb4a7a5-d79c-459a-8a8d-593e912aa7a3.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "marketing_studio_video",
+        "prompt_sha256": "c6cf3a9b64bc289fd05a91ee50112bbc51a32c8ddab6259097d632a62651e7c7",
+        "prompt_chars": 5030,
+        "prompt_path": "references/source-prompts/exploded-product.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "9:16",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/exploded-product.md",
+      "template": "references/templates/exploded-product.md",
+      "template_version": 4,
+      "structure": "One continuous source take with four macro feature stops and reassembly.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 1.5,
+          "label": "Phase 1 — complete hero"
+        },
+        {
+          "start_s": 1.5,
+          "end_s": 3.5,
+          "label": "Phase 2 — slow exploded separation"
+        },
+        {
+          "start_s": 3.5,
+          "end_s": 4.5,
+          "label": "Phase 3 — enter the stack"
+        },
+        {
+          "start_s": 4.5,
+          "end_s": 6,
+          "label": "Phase 4 — first component"
+        },
+        {
+          "start_s": 6,
+          "end_s": 7.5,
+          "label": "Phase 5 — second component"
+        },
+        {
+          "start_s": 7.5,
+          "end_s": 9,
+          "label": "Phase 6 — third component"
+        },
+        {
+          "start_s": 9,
+          "end_s": 10,
+          "label": "Phase 7 — fourth component"
+        },
+        {
+          "start_s": 10,
+          "end_s": 12.5,
+          "label": "Phase 8 — reassembly"
+        },
+        {
+          "start_s": 12.5,
+          "end_s": 15,
+          "label": "Phase 9 — title and hero hold"
+        }
+      ]
+    },
+    {
+      "id": "blueprint-to-building",
+      "title": "Blueprint to building",
+      "category": "Architecture",
+      "tagline": "Watch the plan become a place.",
+      "description": "Drawing lines rise into geometry and acquire materials during one continuous camera move.",
+      "best_for": "Property launches, architecture concepts, and development presentations.",
+      "aliases": [
+        "blueprint",
+        "Higgs Park",
+        "architecture",
+        "architectural transformation"
+      ],
+      "color": "#BDCFDE",
+      "required": [
+        "A building concept, or references/specifications for a real development."
+      ],
+      "optional": [
+        "Drawings or renders",
+        "Development name",
+        "Verified features",
+        "Brand palette"
+      ],
+      "ending": "unplot-return",
+      "strategy": "Compatible blueprint and building references when useful; inspect geometry before animation.",
+      "mechanic": "One connected drawing progressively gains volume and materials while retaining its geometry.",
+      "preserve": [
+        "No cuts, wipes or mismatched buildings; drawing lines land on their actual material counterparts.",
+        "Materialization advances through connected geometry from low floors upward.",
+        "The route includes wireframe, materialization, plan/interior, terrace and proof overlay."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "4. 3D Motion Graphics for Real Estate ($2,000 - $15,000 per minute)",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/4e68af0a-c12e-4dd2-9f69-3b523e534ee4.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "marketing_studio_image",
+        "prompt_sha256": "02bdd1bae1b6eeee62b0a3e1dfe2e1419fe2f0c396c69d7179e4484071dc0c9a",
+        "prompt_chars": 13608,
+        "prompt_path": "references/source-prompts/blueprint-to-building.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/blueprint-to-building.md",
+      "template": "references/templates/blueprint-to-building.md",
+      "template_version": 4,
+      "structure": "One source take with nine timed phases.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 1.8,
+          "label": "Phase 1 — plotted section"
+        },
+        {
+          "start_s": 1.8,
+          "end_s": 3.6,
+          "label": "Phase 2 — wireframe volume"
+        },
+        {
+          "start_s": 3.6,
+          "end_s": 5.8,
+          "label": "Phase 3 — line-to-material ignition"
+        },
+        {
+          "start_s": 5.8,
+          "end_s": 7.8,
+          "label": "Phase 4 — plan descent and interior"
+        },
+        {
+          "start_s": 7.8,
+          "end_s": 9.6,
+          "label": "Phase 5 — terrace passage"
+        },
+        {
+          "start_s": 9.6,
+          "end_s": 11.4,
+          "label": "Phase 6 — geometry proof"
+        },
+        {
+          "start_s": 11.4,
+          "end_s": 13.2,
+          "label": "Phase 7 — wide architectural result"
+        },
+        {
+          "start_s": 13.2,
+          "end_s": 14.6,
+          "label": "Phase 8 — drawing lockup and hold"
+        },
+        {
+          "start_s": 14.6,
+          "end_s": 15,
+          "label": "Phase 9 — return to blueprint"
+        }
+      ]
+    },
+    {
+      "id": "hybrid-2d-3d",
+      "title": "Hybrid 2D + 3D",
+      "category": "Explainers",
+      "tagline": "A dimensional world with a graphic cast.",
+      "description": "Flat characters and marks interact with tangible objects while keeping their graphic appearance.",
+      "best_for": "Education, courses, institutions, and playful brand stories.",
+      "aliases": [
+        "hybrid",
+        "university",
+        "2D 3D",
+        "flat characters on 3D"
+      ],
+      "color": "#DDD2EB",
+      "required": [
+        "An organization, product, or story to explain."
+      ],
+      "optional": [
+        "Key benefits",
+        "Brand assets",
+        "Character preferences"
+      ],
+      "ending": "endcard",
+      "strategy": "One style reference combining a representative 3D object and flat character.",
+      "mechanic": "A flat character uses physical objects as a path through the story, linking graphic action with dimensional response.",
+      "preserve": [
+        "At least the climb, ramp and reward show real cross-layer contact.",
+        "2D remains flat with no shading or cast shadow throughout.",
+        "The same character connects all phases and source university claims are replaced."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "5. 2D Explainer Motion ($300 - $800 to start)",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/4d56be98-74fb-4616-9269-db37ea998171.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "marketing_studio_video",
+        "prompt_sha256": "599621e32719183646009e12f0d75be1d1a27771a2385b312e836868e9513a26",
+        "prompt_chars": 8416,
+        "prompt_path": "references/source-prompts/hybrid-2d-3d.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/hybrid-2d-3d.md",
+      "template": "references/templates/hybrid-2d-3d.md",
+      "template_version": 4,
+      "structure": "Eight source phases mix cinematic 3D objects with consistently flat 2D characters.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 1.8,
+          "label": "Phase 1 — structure and graphic sparks"
+        },
+        {
+          "start_s": 1.8,
+          "end_s": 3.6,
+          "label": "Phase 2 — people emerge"
+        },
+        {
+          "start_s": 3.6,
+          "end_s": 5.4,
+          "label": "Phase 3 — climb with physical response"
+        },
+        {
+          "start_s": 5.4,
+          "end_s": 7.2,
+          "label": "Phase 4 — color match and counter-orbit"
+        },
+        {
+          "start_s": 7.2,
+          "end_s": 9,
+          "label": "Phase 5 — activity around the display"
+        },
+        {
+          "start_s": 9,
+          "end_s": 10.8,
+          "label": "Phase 6 — display becomes a ramp"
+        },
+        {
+          "start_s": 10.8,
+          "end_s": 12.6,
+          "label": "Phase 7 — tangible reward"
+        },
+        {
+          "start_s": 12.6,
+          "end_s": 15,
+          "label": "Phase 8 — hybrid lockup"
+        }
+      ]
+    },
+    {
+      "id": "flat-vector-explainer",
+      "title": "Flat vector explainer",
+      "category": "Explainers",
+      "tagline": "One character. A clear transformation.",
+      "description": "Bold flat shapes and playful morphs carry a character from problem to solution.",
+      "best_for": "Apps, memberships, services, and approachable how-it-works videos.",
+      "aliases": [
+        "HiggsFit",
+        "pure 2D",
+        "vector",
+        "flat vector",
+        "app explainer"
+      ],
+      "color": "#F0D8B5",
+      "required": [
+        "A product or service and the problem it solves."
+      ],
+      "optional": [
+        "Main workflow",
+        "Brand palette",
+        "Exact CTA"
+      ],
+      "ending": "endcard",
+      "strategy": "Optional character/style reference; direct video is viable for simple abstract subjects.",
+      "mechanic": "One consistent character moves through linked situations as a shape from each scene becomes the next.",
+      "preserve": [
+        "All three contexts depict real uses of the subject.",
+        "Morphs connect the same prop family and the same character survives every switch.",
+        "The phone close-up is an element scale, not a moving camera."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "HiggsFit - Pure 2D Vector",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/eda55630-7def-48c7-b4a8-f73e6022b653.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "marketing_studio_video",
+        "prompt_sha256": "8280fcf3517c49ce612d986ce0870cf3a7a2ac151ad902719285a98836918917",
+        "prompt_chars": 8047,
+        "prompt_path": "references/source-prompts/flat-vector-explainer.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/flat-vector-explainer.md",
+      "template": "references/templates/flat-vector-explainer.md",
+      "template_version": 4,
+      "structure": "Nine source phases follow one person through three different service contexts, with a fixed camera and prop morphs.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 1.6,
+          "label": "Phase 1 — constrained character"
+        },
+        {
+          "start_s": 1.6,
+          "end_s": 3.2,
+          "label": "Phase 2 — discover the options"
+        },
+        {
+          "start_s": 3.2,
+          "end_s": 4.8,
+          "label": "Phase 3 — first use case"
+        },
+        {
+          "start_s": 4.8,
+          "end_s": 6.4,
+          "label": "Phase 4 — first prop morph"
+        },
+        {
+          "start_s": 6.4,
+          "end_s": 8,
+          "label": "Phase 5 — second prop morph"
+        },
+        {
+          "start_s": 8,
+          "end_s": 9.6,
+          "label": "Phase 6 — one system connects the cases"
+        },
+        {
+          "start_s": 9.6,
+          "end_s": 11.2,
+          "label": "Phase 7 — three-step workflow"
+        },
+        {
+          "start_s": 11.2,
+          "end_s": 12.8,
+          "label": "Phase 8 — repeatable freedom"
+        },
+        {
+          "start_s": 12.8,
+          "end_s": 15,
+          "label": "Phase 9 — branded resolution"
+        }
+      ]
+    },
+    {
+      "id": "editorial-collage",
+      "title": "Editorial collage",
+      "category": "Explainers",
+      "tagline": "Make an idea tangible.",
+      "description": "Paper cutouts, bold type, and graphic diagrams explain one surprising cause and effect.",
+      "best_for": "Educational shorts, thought leadership, and concise concept explainers.",
+      "aliases": [
+        "paper collage",
+        "editorial",
+        "science explainer",
+        "recorded voice"
+      ],
+      "color": "#F0CCAB",
+      "required": [
+        "A topic and the point viewers should understand."
+      ],
+      "optional": [
+        "Source material",
+        "Exact script",
+        "Brand colors",
+        "Explicit narration preference"
+      ],
+      "ending": "conclusion",
+      "strategy": "A small consistent set of generated cutouts or supplied illustrations.",
+      "mechanic": "A surprising observation is unpacked into visual parts and recombined into a clear explanation.",
+      "preserve": [
+        "Four distinct compositions and three meaningful shape-match cuts remain.",
+        "Path geometry explains the actual topic, with one shared subject and correct causal order.",
+        "Any numeric label agrees with the diagram from its first visible frame."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "6. The Secret Category: Editorial Explainers ($1,500 - $4,000 per minute)",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/61a1f7e8-0a71-4f07-87de-8c75b4c69c34.mp4",
+        "observed_on": "2026-09-03",
+        "prompt_model_label": "minimax_h3",
+        "prompt_sha256": "f4d3da928460d8eb3c17e3aaabe8029178bac9e1333e21258d26d6b8e308b413",
+        "prompt_chars": 12806,
+        "prompt_path": "references/source-prompts/editorial-collage.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/editorial-collage.md",
+      "template": "references/templates/editorial-collage.md",
+      "template_version": 4,
+      "structure": "Four distinct source compositions joined by three shape-match cuts.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 3,
+          "label": "Composition 1 — surprising observation"
+        },
+        {
+          "start_s": 3,
+          "end_s": 7,
+          "label": "Composition 2 — two causal paths"
+        },
+        {
+          "start_s": 7,
+          "end_s": 10.5,
+          "label": "Composition 3 — isolate what changes"
+        },
+        {
+          "start_s": 10.5,
+          "end_s": 15,
+          "label": "Composition 4 — return with understanding"
+        }
+      ]
+    },
+    {
+      "id": "footage-overlays",
+      "title": "Footage + graphics",
+      "category": "Real footage",
+      "tagline": "Make the explanation visible.",
+      "description": "Purposeful graphic overlays support a presenter or real-world scene without replacing it.",
+      "best_for": "Talking-head content, product demos, tutorials, and founder updates.",
+      "aliases": [
+        "motion on footage",
+        "presenter",
+        "overlays",
+        "talking head",
+        "real footage"
+      ],
+      "color": "#D2DACF",
+      "required": [
+        "The source video and the message the graphics should support."
+      ],
+      "optional": [
+        "Exact overlay copy",
+        "Brand colors",
+        "Whether to retain the source speech"
+      ],
+      "ending": "source-continuity",
+      "strategy": "User-supplied footage first; optional overlay artwork. Preserve source identity.",
+      "mechanic": "An idea in the footage triggers a graphic that illustrates it, then clears for the next idea.",
+      "preserve": [
+        "Actual source identity and key scene details are preserved.",
+        "Cue sheet aligns overlays with meaning; text does not anticipate the spoken claim.",
+        "Graphics stay screen-locked despite camera movement, with correct subject occlusion."
+      ],
+      "source": {
+        "url": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+        "section": "2. Motion on Top of Real Footage ($200 - $500 per 60 seconds)",
+        "preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/d94bfad5-165f-4c27-ba85-bd169b1e3408.mp4",
+        "observed_on": "2026-09-03",
+        "additional_preview_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/a86d9b56-01c8-45de-9108-c357a1edb26b.mp4",
+        "prompt_model_label": "minimax_h3_max",
+        "prompt_sha256": "ec23a52ff99cb13802400700c612621030cfcd1d80acb52be7dcf754f7a91e88",
+        "prompt_chars": 4889,
+        "prompt_path": "references/source-prompts/footage-overlays.txt",
+        "prompt_storage": "verbatim captured text; hash verified"
+      },
+      "defaults": {
+        "duration_s": 15,
+        "aspect_ratio": "16:9",
+        "fps": 30,
+        "audio": "music_and_effects_no_narration",
+        "generation": "one_full_film_request"
+      },
+      "recipe": "references/presets/footage-overlays.md",
+      "template": "references/templates/footage-overlays.md",
+      "template_version": 4,
+      "structure": "The source prompt uses two camera setups: a static first view and a newly generated second angle at 5 seconds.",
+      "timeline": [
+        {
+          "start_s": 0,
+          "end_s": 5,
+          "label": "Shot 1 — original static angle"
+        },
+        {
+          "start_s": 5,
+          "end_s": 15,
+          "label": "Shot 2 — alternate angle and depth headline"
+        }
+      ]
+    }
+  ]
+}

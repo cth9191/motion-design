@@ -1,0 +1,14 @@
+# Local runtime and campaign outputs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+work/
+outputs/
+campaigns/
+*.log
+.DS_Store
+Thumbs.db

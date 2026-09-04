@@ -1,0 +1,19 @@
+# Source attribution
+
+The original prompt examples and linked demonstration videos come from the [Higgsfield Marketing Studio article](https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day).
+
+The library was captured on September 3, 2026. Individual source sections, original model labels, video URLs, prompt paths, and SHA-256 hashes are recorded in [assets/presets.json](skills/higgsfield-motion-design/assets/presets.json).
+
+## Original material
+
+- `skills/higgsfield-motion-design/references/source-prompts/` contains archived source prompts.
+- The gallery embeds those same prompts for inspection.
+- Preview videos remain hosted at the public URLs associated with the source article; this repository does not contain the video files.
+
+Original prompts retain their source wording, including fictional brands and historical production settings. Those details are provenance, not defaults to inherit for a new project.
+
+## Added workflow material
+
+The skill entrypoint, adaptation guides, preset navigation, gallery tooling, and workflow instructions were assembled to make these examples usable as a Codex skill. Adaptations are labeled separately from their originals.
+
+Attribution does not establish a license for third-party material. No repository-wide license has been applied to the combined package.
