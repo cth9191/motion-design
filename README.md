@@ -1,13 +1,9 @@
-# Motion Design
-
-<pre>
- __  __  ___ _____ ___ ___  _  _
-|  \/  |/ _ \_   _|_ _/ _ \| \| |
-| |\/| | (_) || |  | | (_) | .` |
-|_|  |_|\___/ |_| |___\___/|_|\_|
-
-          d e s i g n
-</pre>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/wordmark-dark.svg" />
+    <img src="docs/images/wordmark-light.svg" alt="Motion Design" width="960" />
+  </picture>
+</p>
 
 <p align="center">
   Turn a product, website or idea into a complete motion film.<br />
