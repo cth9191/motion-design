@@ -17,6 +17,6 @@ jobs:
         with:
           python-version: "3.13"
       - name: Validate sources, templates and gallery
-        run: python skills/higgsfield-motion-design/scripts/build_gallery.py
+        run: python skills/motion-design/scripts/build_gallery.py
       - name: Check generated files are current
-        run: git diff --exit-code -- skills/higgsfield-motion-design/assets/gallery.html skills/higgsfield-motion-design/references/preset-index.md
+        run: git diff --exit-code -- skills/motion-design/assets/gallery.html skills/motion-design/references/preset-index.md

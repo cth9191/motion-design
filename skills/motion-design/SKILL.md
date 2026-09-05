@@ -1,9 +1,9 @@
 ---
-name: higgsfield-motion-design
+name: motion-design
 description: Browse playable motion-design examples and adapt their original prompts into product-specific full-film prompts or videos through Higgsfield MCP. Supports kinetic typography, glass UI launches, product films, architectural reveals, explainers, footage overlays and original concepts. References are optional; prompt review does not generate media.
 ---
 
-# Higgsfield Motion Design
+# Motion Design
 
 Use the selected example's original prompt as the actual starting text. Make targeted product-specific changes while preserving its shot structure, camera moves, materials, transitions and ending. Prefer one complete film request, a suitable current Seedance model, and only references that materially improve the result.
 

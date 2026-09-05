@@ -1,6 +1,13 @@
-<p align="center">
-  <img src="docs/images/readme-banner.svg" alt="Higgsfield Motion Design — Make it move. A motion design skill for Codex and Claude Code." width="1280" />
-</p>
+# Motion Design
+
+<pre>
+ __  __  ___ _____ ___ ___  _  _
+|  \/  |/ _ \_   _|_ _/ _ \| \| |
+| |\/| | (_) || |  | | (_) | .` |
+|_|  |_|\___/ |_| |___\___/|_|\_|
+
+          d e s i g n
+</pre>
 
 <p align="center">
   Turn a product, website or idea into a complete motion film.<br />
@@ -118,7 +125,7 @@ Paste into Codex:
 $skill-installer
 
 Install the skill from:
-https://github.com/cth9191/higgsfield-motion-design/tree/main/skills/higgsfield-motion-design
+https://github.com/cth9191/motion-design/tree/main/skills/motion-design
 ```
 
 ### Claude Code
@@ -126,8 +133,8 @@ https://github.com/cth9191/higgsfield-motion-design/tree/main/skills/higgsfield-
 Paste into Claude Code:
 
 ```text
-Install the skill from https://github.com/cth9191/higgsfield-motion-design.
-Copy skills/higgsfield-motion-design into ~/.claude/skills/higgsfield-motion-design.
+Install the skill from https://github.com/cth9191/motion-design.
+Copy skills/motion-design into ~/.claude/skills/motion-design.
 If it already exists, compare it, back up local customizations, and update it.
 ```
 
@@ -135,7 +142,7 @@ If it already exists, compare it, back up local customizations, and update it.
 
 ### Make your first film
 
-Start with **`$higgsfield-motion-design`** in Codex or **`/higgsfield-motion-design`** in Claude Code, then add:
+Start with **`$motion-design`** in Codex or **`/motion-design`** in Claude Code, then add:
 
 ```text
 Use the kinetic typography preset for a 15-second announcement:
@@ -199,7 +206,7 @@ References are optional. A product photo can help preserve identity; a style fra
 | **Complete film** | Higgsfield MCP, suitable current **Seedance** preferred | Same |
 | **Prompt-only work** | No generation connection required | Same |
 
-New campaigns generally target **15 seconds · 16:9 · music + effects**, without narration, and a 30fps delivery. Native fps and supported durations depend on the model. Portrait product and supplied-footage presets have their own starting settings; your choices take precedence. See [tool routing](skills/higgsfield-motion-design/references/tool-routing.md) for live model checks and asset handoff.
+New campaigns generally target **15 seconds · 16:9 · music + effects**, without narration, and a 30fps delivery. Native fps and supported durations depend on the model. Portrait product and supplied-footage presets have their own starting settings; your choices take precedence. See [tool routing](skills/motion-design/references/tool-routing.md) for live model checks and asset handoff.
 
 ## Under the hood
 
@@ -217,10 +224,10 @@ Exact typography, charts, timing and product identity require output inspection.
 <details>
 <summary><strong>Maintain or update the skill</strong></summary>
 
-Edit `skills/higgsfield-motion-design/`, then rebuild:
+Edit `skills/motion-design/`, then rebuild:
 
 ```sh
-python skills/higgsfield-motion-design/scripts/build_gallery.py
+python skills/motion-design/scripts/build_gallery.py
 ```
 
 Python 3.10+ is needed only for the builder or serving the gallery. The builder checks preset IDs, linked recipes/templates, timeline coverage and archived source hashes, then refreshes the gallery and index. Commit generated changes with source edits; GitHub Actions repeats the check.
@@ -231,4 +238,4 @@ Keep original source prompts immutable. Update adaptation guides and workflow in
 
 ---
 
-<sub>An independent skill for Codex and Claude Code; not an official Higgsfield product. Original prompts and films come from the linked Higgsfield article. README preview stills are captures of those films; the title banner is original project artwork. <a href="ATTRIBUTION.md">Attribution</a> · <a href="docs/images/sources.json">Preview provenance</a> · <a href="ROADMAP.md">Validation plan</a>.<br /><br />Campaign videos, credentials and private generation records are outside this package. No repository-wide license has been selected; third-party material is identified separately.</sub>
+<sub>An independent skill for Codex and Claude Code; not an official Higgsfield product. Original prompts and films come from the linked Higgsfield article. README preview stills are captures of those films. <a href="ATTRIBUTION.md">Attribution</a> · <a href="docs/images/sources.json">Preview provenance</a> · <a href="ROADMAP.md">Validation plan</a>.<br /><br />Campaign videos, credentials and private generation records are outside this package. No repository-wide license has been selected; third-party material is identified separately.</sub>
