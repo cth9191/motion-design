@@ -4,7 +4,7 @@ Read only for authorized asset/video production. User-requested prompt review en
 
 ## Resolve the film and route
 
-Read the selected original source prompt and adaptation guide. Bind the content using [template-adaptation.md](template-adaptation.md). Select the strongest suitable accessible model, preferring current Seedance. Inspect duration, aspect ratio, resolution, reference roles/limits, audio support and prompt limits through actual tools.
+Read the selected original source prompt and adaptation guide. Bind the content using [template-adaptation.md](template-adaptation.md), and create the compact before/after review record in [quality-review.md](quality-review.md). Select the strongest suitable accessible model, preferring current Seedance. Inspect duration, aspect ratio, resolution, reference roles/limits, audio support and prompt limits through actual tools.
 
 Keep source endpoint/format as provenance. A Marketing Studio SaaS source and a Seedance adaptation are different routes; preserve the creative template while disclosing this difference. Do not guess an unavailable preset slug or interpret catalog exposure as account entitlement. Use read-only estimation for cost/access preflight when supported, never generation as a probe.
 
@@ -14,7 +14,7 @@ One request should contain the entire film. A provider failure does not establis
 
 - **Prompt-only:** Type, abstract motion and scenes whose identity can be expressed adequately in text.
 - **Existing assets:** Product appearance, recognizable people, actual software outputs or supplied footage. Use the minimum set covering the required identity/content.
-- **Generated references:** A style frame, hero design or storyboard that resolves a specific ambiguity. Use built-in image generation and inspect the result. A storyboard is optional full-film reference material, not an instruction to create one video per frame.
+- **Generated references:** A style frame, hero design or storyboard that resolves a specific ambiguity. Follow [tool-routing.md](tool-routing.md): Codex built-in image generation when available; Claude Code via Higgsfield MCP, preferring GPT Image 2. Inspect the result. A storyboard is optional full-film reference material, not an instruction to create one video per frame.
 
 Identify each asset's purpose: identity, style, motion reference, start frame or end frame. A generic reference must not accidentally become a start frame that fixes the film to one layout. Use a storyboard contact sheet only when supported as a general reference and explicitly describe its panels as temporal guidance; never supply it as the literal opening image.
 
@@ -30,7 +30,7 @@ Save a small record with source prompt hash, adapted prompt, deliberate changes,
 
 ## Inspect and revise
 
-Inspect playback for the full sequence: shot order, transitions, camera amplitudes, light/dark passages, pacing, identity, text, data and ending. Compare with both the original reference and product content map. Representative stills alone cannot establish smooth temporal behavior.
+Inspect playback for the full sequence: shot order, transitions, camera amplitudes, light/dark passages, pacing, identity, text, data and ending. Compare with both the original reference and product content map. Fill the observed result and evidence in the [quality review](quality-review.md), including any uninspected requirement. Representative stills alone cannot establish smooth temporal behavior.
 
 Listen for music/effects synchronization, unintended speech, clipped audio and a clean ending. Exact copy and benchmark values must survive the rendered frames; prompt instructions are not proof. The original preview's polish is not a guarantee of first-attempt output.
 
