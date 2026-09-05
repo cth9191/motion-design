@@ -233,5 +233,3 @@ Keep original source prompts immutable. Update adaptation guides and workflow in
 </details>
 
 ---
-
-<sub>An independent skill for Codex and Claude Code; not an official Higgsfield product. Original prompts and films come from the linked Higgsfield article. README preview stills are captures of those films. <a href="ATTRIBUTION.md">Attribution</a> · <a href="docs/images/sources.json">Preview provenance</a> · <a href="ROADMAP.md">Validation plan</a>.<br /><br />Campaign videos, credentials and private generation records are outside this package. No repository-wide license has been selected; third-party material is identified separately.</sub>
