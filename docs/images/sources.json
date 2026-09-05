@@ -1,0 +1,68 @@
+{
+  "captured_on": "2026-09-05",
+  "method": "Unretouched browser screenshots of source-video frames displayed in the local gallery; native controls hidden. No generated media.",
+  "gallery_screenshot": "gallery.png",
+  "source_article": "https://higgsfield.ai/@adilinthewildtempo/blogs/claude-fable-5-1-higgsfield-marketing-studio-300-day",
+  "stills": [
+    {
+      "file": "kinetic-typography.png",
+      "preset": "kinetic-typography",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/75a6c434-a18a-4484-81b0-387308743279.mp4",
+      "time_s": 3.99
+    },
+    {
+      "file": "glass-ui-launch.png",
+      "preset": "glass-ui-launch",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/fee13558-1de4-46cb-80c6-443935cb8257.mp4",
+      "time_s": 6.37056
+    },
+    {
+      "file": "product-hyper-motion.png",
+      "preset": "product-hyper-motion",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/d1e752b7-ea6b-4553-98c6-15c8f3bf0cb4.mp4",
+      "time_s": 6.33024
+    },
+    {
+      "file": "tropical-product.png",
+      "preset": "tropical-product",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/a95756c8-1f3f-4d93-9ea9-a14832aba4bd.mp4",
+      "time_s": 6.33024
+    },
+    {
+      "file": "exploded-product.png",
+      "preset": "exploded-product",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/9eb4a7a5-d79c-459a-8a8d-593e912aa7a3.mp4",
+      "time_s": 4.4982
+    },
+    {
+      "file": "blueprint-to-building.png",
+      "preset": "blueprint-to-building",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/4e68af0a-c12e-4dd2-9f69-3b523e534ee4.mp4",
+      "time_s": 6.33024
+    },
+    {
+      "file": "hybrid-2d-3d.png",
+      "preset": "hybrid-2d-3d",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/4d56be98-74fb-4616-9269-db37ea998171.mp4",
+      "time_s": 6.335004
+    },
+    {
+      "file": "flat-vector-explainer.png",
+      "preset": "flat-vector-explainer",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/eda55630-7def-48c7-b4a8-f73e6022b653.mp4",
+      "time_s": 6.335004
+    },
+    {
+      "file": "editorial-collage.png",
+      "preset": "editorial-collage",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/61a1f7e8-0a71-4f07-87de-8c75b4c69c34.mp4",
+      "time_s": 6.3175
+    },
+    {
+      "file": "footage-overlays.png",
+      "preset": "footage-overlays",
+      "source_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3DiY2MbHSIvzM3FG2DOgC6Cf2MM/d94bfad5-165f-4c27-ba85-bd169b1e3408.mp4",
+      "time_s": 4.19328
+    }
+  ]
+}

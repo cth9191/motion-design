@@ -30,14 +30,14 @@
     <main>
       <section class="intro" aria-labelledby="page-title">
         <h1 id="page-title">Start with a look.</h1>
-        <div><p>Play an example. Choose a style. Tell Codex what you're making, and let it handle the production.</p><p class="small">Previews start muted. Your new video defaults to silent.</p></div>
+        <div><p>Play an example. Choose a style. Tell Codex or Claude Code what you're making, and let it handle the production.</p><p class="small">Previews start muted. New films default to music and effects, without narration.</p></div>
       </section>
       <div class="browse"><nav id="filters" class="filters" aria-label="Filter motion styles"></nav><span id="count" class="count" aria-live="polite"></span></div>
       <section id="grid" class="grid" aria-label="Motion style examples"></section>
       <section class="how" aria-label="How it works">
         <div><strong>Choose a look</strong><p>Find the motion that suits your message. Each example includes a detailed shot template to adapt to your brand.</p></div>
-        <div><strong>Make it yours</strong><p>A website or a short description is enough to start. Codex can draft the copy and identify any missing assets.</p></div>
-        <div><strong>Continue in Codex</strong><p>Copy your request into the chat. Ask for a draft, reference images, or the finished video.</p></div>
+        <div><strong>Make it yours</strong><p>A website or a short description is enough to start. Your assistant can draft the copy and identify any missing assets.</p></div>
+        <div><strong>Continue in your chat</strong><p>Copy your request into the chat. Ask for a draft, reference images, or the finished video.</p></div>
       </section>
     </main>
     <footer class="footer"><span>Reference examples show the style. Your result will be a new adaptation.</span><span>Previews stream from Higgsfield's source media.</span></footer>
@@ -50,13 +50,14 @@
         <p class="preview-caption">Source example · <a id="detail-source" target="_blank" rel="noopener noreferrer">View original article</a><br><a id="detail-extra" class="source-extra" target="_blank" rel="noopener noreferrer" hidden>Watch the second reference clip</a></p>
         <p id="detail-description" class="detail-copy"></p>
         <h3>What makes this look</h3><ul id="detail-preserve"></ul>
-        <details id="template-details" class="template-view"><summary>Read the full shot template</summary><p id="detail-structure" class="template-note"></p><p class="template-note">A parameterized adaptation of the published prompt. The original wording is linked in the source article above.</p><pre id="detail-template"></pre></details>
+        <details id="template-details" class="template-view"><summary>Read the original prompt and adaptation guide</summary><p id="detail-structure" class="template-note"></p><p class="template-note">The exact archived source prompt appears first, followed by a separately labeled adaptation guide.</p><pre id="detail-template"></pre></details>
         <h3>What I'll need from you</h3><ul id="detail-required"></ul>
         <p id="detail-optional" class="detail-copy helpful"></p>
       </section>
       <section class="form-panel" aria-labelledby="make-title">
-        <h3 id="make-title">Make it yours</h3><p class="sub">Add what you know. Leave the creative details to Codex.</p>
+        <h3 id="make-title">Make it yours</h3><p class="sub">Add what you know. Choose your app and add your brief.</p>
         <form id="request-form">
+          <label class="field"><span>Your app</span><select id="host"><option value="codex">Codex</option><option value="claude">Claude Code</option></select></label>
           <label class="field"><span>What are you making?</span><textarea id="brief" placeholder="Example: A launch video for Chase AI's automation course. Keep it confident and clear."></textarea></label>
           <label class="field"><span>Website or reference link <span style="font-weight:400">(optional)</span></span><input id="website" type="text" inputmode="url" placeholder="Your brand, product, or source page"><small>Attach any required photos or footage in the chat.</small></label>
           <div class="row">
@@ -66,9 +67,9 @@
           <label class="field"><span>Sound</span><select id="audio"><option value="silent">Silent</option><option value="music">Music and sound effects</option><option value="narration">Narration with supporting music</option></select></label>
           <label class="field"><span>What would you like back?</span><select id="mode"><option value="production">Create the finished video</option><option value="prompt">Draft the production prompt</option><option value="images">Create reference images</option></select></label>
           <button type="submit" class="submit">Copy request</button>
-          <p class="handoff">Paste into your Codex chat to continue. This page does not start a generation or send your brief anywhere.</p>
+          <p class="handoff">Paste into your selected app to continue. This page does not start a generation or send your brief anywhere.</p>
           <p id="copy-status" class="status" role="status" aria-live="polite"></p>
-          <details class="request-details" id="request-details"><summary>View the request</summary><textarea id="request-text" readonly aria-label="Request to paste into Codex"></textarea></details>
+          <details class="request-details" id="request-details"><summary>View the request</summary><textarea id="request-text" readonly aria-label="Request to paste into your selected app"></textarea></details>
         </form>
       </section>
     </div>
@@ -85,7 +86,7 @@
     const dialog = document.getElementById('preset-dialog');
     const form = document.getElementById('request-form');
     const detailVideo = document.getElementById('detail-video');
-    const fields = Object.fromEntries(['brief','website','format','duration','audio','mode'].map(id=>[id,document.getElementById(id)]));
+    const fields = Object.fromEntries(['host','brief','website','format','duration','audio','mode'].map(id=>[id,document.getElementById(id)]));
     let selected = null;
     let category = 'All styles';
     let opener = null;
@@ -144,7 +145,8 @@
       if(!selected)return '';
       const mode={production:'Create the finished video',prompt:'Draft the complete production prompt only; do not generate media',images:'Create the useful reference images only; do not submit video jobs'}[fields.mode.value];
       const sound={silent:'Fully silent: no music, effects, or speech.',music:'Include music and sound effects; no narration.',narration:'Include narration and supporting music. Draft the narration from my brief; do not imitate a specific person.',source:'Retain the supplied footage\'s original speech and timing; do not clone or replace the voice.'}[fields.audio.value];
-      const lines=['Use $higgsfield-motion-design with the "'+selected.title+'" preset ('+selected.id+').',mode+'.'];
+      const invocation=fields.host.value==='claude'?'/higgsfield-motion-design':'$higgsfield-motion-design';
+      const lines=[invocation,'Use the "'+selected.title+'" preset ('+selected.id+').',mode+'.'];
       if(fields.brief.value.trim())lines.push('Project: '+fields.brief.value.trim());
       if(fields.website.value.trim())lines.push('Website or reference: '+fields.website.value.trim());
       lines.push('Format: '+(fields.format.value==='source'?'match the source footage':fields.format.value)+'.');
@@ -153,7 +155,8 @@
       lines.push('Read the exact original prompt at '+selected.source.prompt_path+' and the adaptation guide at '+selected.template+' (version '+selected.template_version+'). Start from the original text, preserving its format, shots, camera moves, scale and lighting changes, transitions and ending. Replace product-specific content and record departures. Use one full-film request, preferring a suitable current Seedance model through Higgsfield MCP. Reference assets are optional; include only what the task needs.');
       lines.push('Use my existing brand context and draft any missing creative copy. Map the product content to the template shots before generating images. Ask only for essential missing information.');
       if(selected.id==='footage-overlays')lines.push('Use my actual source footage. If it is not attached, ask for it before producing the overlays.');
-      if(fields.mode.value==='production')lines.push('Use built-in image generation when useful, then the available Higgsfield workflow and finishing tools. Inspect the result and identify any remaining work.');
+      if(fields.mode.value!=='prompt')lines.push(fields.host.value==='claude'?'For needed images, use Higgsfield MCP and prefer GPT Image 2 (gpt_image_2), checking its current schema and availability.':'For needed images, prefer built-in image generation when available; otherwise use the connected Higgsfield image route.');
+      if(fields.mode.value==='production')lines.push('Generate the complete film through Higgsfield MCP. Inspect it against the template fidelity checks, product content, exact copy, audio and ending; identify any remaining work.');
       return lines.join('\n\n');
     }
     function updateRequest(){document.getElementById('request-text').value=makeRequest();document.getElementById('copy-status').textContent=''}
@@ -168,8 +171,8 @@
     form.addEventListener('submit',async event=>{
       event.preventDefault();const request=makeRequest();if(!request)return;
       const box=document.getElementById('request-text');box.value=request;
-      try{if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');await navigator.clipboard.writeText(request);document.getElementById('copy-status').textContent='Copied. Paste into your Codex chat to continue.'}
-      catch{document.getElementById('request-details').open=true;box.focus();box.select();document.getElementById('copy-status').textContent='Select and copy the request below, then paste it into Codex.'}
+      try{if(!navigator.clipboard?.writeText)throw new Error('Clipboard unavailable');await navigator.clipboard.writeText(request);document.getElementById('copy-status').textContent='Copied. Paste into your selected app to continue.'}
+      catch{document.getElementById('request-details').open=true;box.focus();box.select();document.getElementById('copy-status').textContent='Select and copy the request below, then paste it into your selected app.'}
     });
     renderCards();
     try{const initial=decodeURIComponent(location.hash.slice(1));if(byId.has(initial))openPreset(initial)}catch{}

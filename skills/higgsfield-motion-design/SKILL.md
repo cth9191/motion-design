@@ -11,7 +11,7 @@ Use the selected example's original prompt as the actual starting text. Make tar
 
 - **Browse:** Read [preset-workflow.md](references/preset-workflow.md) and the [index](references/preset-index.md). Show the playable [gallery](assets/gallery.html) and recommend up to three relevant looks. Reuse existing campaign context.
 - **Prompt or review:** Read the selected original source prompt and adaptation guide. Show one complete resolved prompt in its original format, with concise settings and reference notes outside it. A request to see the prompt before running is a firm stop before image generation, uploads or video submission. No tool call may submit a job merely to check access or cost.
-- **Images:** Create only requested or necessary references, using built-in image generation by default. Follow its imagegen instructions. An image request does not commission video.
+- **Images:** Create only requested or necessary references. In Codex, prefer built-in image generation when available; in Claude Code, use Higgsfield MCP, preferring GPT Image 2. Read [tool-routing.md](references/tool-routing.md) for capability checks and asset handoff. An image request does not commission video.
 - **Production:** Follow [production.md](references/production.md) through generation and inspection, within the user's authorization. Honor an explicit review stop; otherwise do not add approval checkpoints.
 - **Original concept:** Use [creative-brief.md](references/creative-brief.md). Offer a few relevant ideas when asked, then develop the selected one.
 
@@ -39,7 +39,7 @@ For originals, define a recognizable hero or graphic system, a clear palette, mo
 
 ## Tool routing and delivery
 
-Use Higgsfield MCP for video. Use built-in image generation only when the asset plan calls for new images. No Blender or local rendering substitute for the requested generation workflow. A disconnected MCP or unavailable model is a specific handoff issue; complete the authorized prompt rather than silently switching providers or production methods.
+Use the same skill in Codex and Claude Code. Read [tool-routing.md](references/tool-routing.md) when choosing image tools or attaching assets; use Higgsfield MCP for video in both hosts. Generate images only when the asset plan needs them. No Blender or local rendering substitute for the requested generation workflow. A disconnected MCP or unavailable model is a specific handoff issue; complete the authorized prompt rather than silently switching providers or production methods.
 
 Local paths are not remote attachments. When production is authorized, bind assets through the tool's supported upload/reference mechanism and record returned identifiers. Do not send unresolved reference placeholders.
 
