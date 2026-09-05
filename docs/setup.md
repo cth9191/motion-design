@@ -1,6 +1,10 @@
 # Set up Codex or Claude Code
 
-Install the same `skills/higgsfield-motion-design/` folder in either app. It includes the prompt library, adaptation guides and gallery. App-specific image routes live in [tool-routing.md](../skills/higgsfield-motion-design/references/tool-routing.md).
+Install the same `skills/motion-design/` folder in either app. It includes the prompt library, adaptation guides and gallery. App-specific image routes live in [tool-routing.md](../skills/motion-design/references/tool-routing.md).
+
+## Updating an earlier installation
+
+Earlier versions used the name `higgsfield-motion-design`. Install the updated folder as `motion-design`, then archive the old folder outside your app's skills directory after preserving any customizations. This avoids loading both names. Your commands become `$motion-design` in Codex and `/motion-design` in Claude Code. The repository is now `cth9191/motion-design`; update the Git remote in existing checkouts if needed.
 
 ## 1. Install the skill
 
@@ -12,7 +16,7 @@ Paste this into Codex:
 $skill-installer
 
 Install the skill from:
-https://github.com/cth9191/higgsfield-motion-design/tree/main/skills/higgsfield-motion-design
+https://github.com/cth9191/motion-design/tree/main/skills/motion-design
 ```
 
 For an existing installation, ask to update it and preserve any local customizations. Start a new session if the installed skill is not yet visible.
@@ -22,16 +26,16 @@ For an existing installation, ask to update it and preserve any local customizat
 Paste this into Claude Code:
 
 ```text
-Install the higgsfield-motion-design skill from
-https://github.com/cth9191/higgsfield-motion-design
+Install the motion-design skill from
+https://github.com/cth9191/motion-design
 
 Clone the repository into a temporary working folder, then copy the complete
-skills/higgsfield-motion-design directory into my personal ~/.claude/skills/
+skills/motion-design directory into my personal ~/.claude/skills/
 directory. If it already exists, compare it, back up local customizations,
 and update that skill. Do not put the entire repository inside the skill folder.
 ```
 
-The final entrypoint must be `~/.claude/skills/higgsfield-motion-design/SKILL.md`. On Windows, `~` is your user profile. For project-only installation, use `.claude/skills/higgsfield-motion-design/` in that project instead. Invoke it with `/higgsfield-motion-design`. See [Claude Code's skill documentation](https://code.claude.com/docs/en/skills) for discovery and scope.
+The final entrypoint must be `~/.claude/skills/motion-design/SKILL.md`. On Windows, `~` is your user profile. For project-only installation, use `.claude/skills/motion-design/` in that project instead. Invoke it with `/motion-design`. See [Claude Code's skill documentation](https://code.claude.com/docs/en/skills) for discovery and scope.
 
 ## 2. Connect Higgsfield
 
@@ -73,7 +77,7 @@ GPT Image 2 appeared as `gpt_image_2` in the connected model catalog on Septembe
 
 ## 3. Try a prompt first
 
-In Codex, start with `$higgsfield-motion-design`; in Claude Code, use `/higgsfield-motion-design`. Then paste:
+In Codex, start with `$motion-design`; in Claude Code, use `/motion-design`. Then paste:
 
 ```text
 Use the kinetic typography preset for a 15-second announcement:
@@ -86,10 +90,10 @@ The assistant should read the original source prompt, adapt its motion and copy,
 
 ## 4. Browse the playable gallery
 
-Open `skills/higgsfield-motion-design/assets/gallery.html` from your local repository or installed skill. If your app cannot open local HTML, run this from the repository root:
+Open `skills/motion-design/assets/gallery.html` from your local repository or installed skill. If your app cannot open local HTML, run this from the repository root:
 
 ```sh
-python -m http.server 8765 --bind 127.0.0.1 --directory skills/higgsfield-motion-design
+python -m http.server 8765 --bind 127.0.0.1 --directory skills/motion-design
 ```
 
 Visit [the local gallery](http://127.0.0.1:8765/assets/gallery.html), choose a look, select Codex or Claude Code, add a brief and copy the request into that app. Close the server with Ctrl+C when finished. Python 3.10+ is needed only for this server or the gallery builder. Previews stream from public source URLs and need internet; the prompt library is local.

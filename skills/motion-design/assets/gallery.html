@@ -145,7 +145,7 @@
       if(!selected)return '';
       const mode={production:'Create the finished video',prompt:'Draft the complete production prompt only; do not generate media',images:'Create the useful reference images only; do not submit video jobs'}[fields.mode.value];
       const sound={silent:'Fully silent: no music, effects, or speech.',music:'Include music and sound effects; no narration.',narration:'Include narration and supporting music. Draft the narration from my brief; do not imitate a specific person.',source:'Retain the supplied footage\'s original speech and timing; do not clone or replace the voice.'}[fields.audio.value];
-      const invocation=fields.host.value==='claude'?'/higgsfield-motion-design':'$higgsfield-motion-design';
+      const invocation=fields.host.value==='claude'?'/motion-design':'$motion-design';
       const lines=[invocation,'Use the "'+selected.title+'" preset ('+selected.id+').',mode+'.'];
       if(fields.brief.value.trim())lines.push('Project: '+fields.brief.value.trim());
       if(fields.website.value.trim())lines.push('Website or reference: '+fields.website.value.trim());

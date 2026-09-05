@@ -7,7 +7,7 @@ The shared workflow is implemented for Codex and Claude Code. This page separate
 - [x] Ten presets, exact archived source prompts with hash checks, separate adaptation guides and a playable gallery.
 - [x] One shared skill with Codex and Claude Code installation instructions and the appropriate invocation in gallery requests.
 - [x] Host-aware reference images: Codex built-in image generation when available; Claude Code via Higgsfield MCP, preferring GPT Image 2 after live capability checks.
-- [x] Before/after production review using each preset's existing fidelity requirements, with observed timestamps and pass/fail/not-inspected status. See [quality-review.md](skills/higgsfield-motion-design/references/quality-review.md).
+- [x] Before/after production review using each preset's existing fidelity requirements, with observed timestamps and pass/fail/not-inspected status. See [quality-review.md](skills/motion-design/references/quality-review.md).
 - [x] Separate correction guidance for motion, identity, exact text/data, audio and export problems, with bounded retries.
 - [x] README source-preview stills and links, setup walkthrough and source attribution.
 
