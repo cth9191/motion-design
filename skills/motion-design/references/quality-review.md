@@ -4,7 +4,7 @@ Use for production and substantive revisions. Keep the record in the campaign wo
 
 ## Before generation
 
-Read the selected guide's **Fidelity checks**, the catalog's **preserve** list and the actual original prompt as source baselines. State the intended viewer takeaway and identify the actions and transitions that make this adapted sequence work. Review against that brief and the source techniques intentionally retained; original scene counts and sequence are not universal requirements. Use this compact table when helpful, without turning it into a mandatory scoring system.
+For gallery adaptation, read the selected guide's **Fidelity checks**, the catalog's **preserve** list and the actual original prompt as source baselines. For a supplied video, use the source-to-replacement map and corresponding-moment comparison in [video-reference.md](video-reference.md). State the viewer takeaway and the actions and transitions that deliver it. Gallery scene counts are not universal requirements; in close recreation, the supplied clip's sequence and choreography are the baseline. Use this compact table when helpful, without turning it into a mandatory scoring system.
 
 | Requirement and expected time | Planned shot / asset / exact copy | Observed result and timestamp | Status / next action |
 |---|---|---|---|

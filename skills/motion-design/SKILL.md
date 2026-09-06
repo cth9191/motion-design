@@ -1,16 +1,17 @@
 ---
 name: motion-design
-description: Browse playable motion-design examples and adapt their original prompts into product-specific full-film prompts or videos through Higgsfield MCP. Supports kinetic typography, glass UI launches, product films, architectural reveals, explainers, footage overlays and original concepts. References are optional; prompt review does not generate media.
+description: Adapt motion-design gallery prompts or closely recreate a supplied video for a new subject through Higgsfield MCP. Supports full-film prompts and production in Codex and Claude Code. References are optional; prompt review does not generate media.
 ---
 
 # Motion Design
 
-Adaptation is the default: start from the closest example's complete original prompt. Preserve the visual character and motion techniques that make it effective; adapt its scenes, sequence, timing and transitions to the new communication goal. Keep details that serve that goal and replace those that do not. Follow an explicit request for close recreation when given. Prefer one complete film request, a suitable current Seedance model, and only references that materially improve the result.
+For gallery adaptation, start from the closest example's complete original prompt and adapt its useful visual and motion techniques to the new communication goal. For a supplied video, default to close recreation: that clip controls the sequence, framing, timing and movement while the subject and copy change. An explicit request for loose inspiration overrides this default. Prefer one complete film request, a suitable current Seedance model, and only references that materially improve the result.
 
 ## Requested mode
 
 - **Browse:** Read [preset-workflow.md](references/preset-workflow.md) and the [index](references/preset-index.md). Show the playable [gallery](assets/gallery.html) and recommend up to three relevant looks. Reuse existing campaign context.
-- **Prompt or review:** Read the selected original source prompt and adaptation guide. Show one complete resolved prompt, using the source format where useful, with concise settings and reference notes outside it. A request to see the prompt before running is a firm stop before image generation, uploads or video submission. No tool call may submit a job merely to check access or cost.
+- **Supplied video:** Read [video-reference.md](references/video-reference.md). Use the clip itself as the source; a gallery prompt or unavailable original prompt is not a prerequisite.
+- **Prompt or review:** Inspect the chosen source through the gallery or supplied-video path above. Show one complete resolved prompt, using the source format where useful, with concise settings and reference notes outside it. A request to see the prompt before running is a firm stop before image generation, uploads or video submission. No tool call may submit a job merely to check access or cost.
 - **Images:** Create only requested or necessary references. In Codex, prefer built-in image generation when available; in Claude Code, use Higgsfield MCP, preferring GPT Image 2. Read [tool-routing.md](references/tool-routing.md) for capability checks and asset handoff. An image request does not commission video.
 - **Production:** Follow [production.md](references/production.md) through generation and inspection, within the user's authorization. Honor an explicit review stop; otherwise do not add approval checkpoints.
 - **Original concept:** Use [creative-brief.md](references/creative-brief.md). Offer a few relevant ideas when asked, then develop the selected one.
@@ -31,7 +32,7 @@ Source prompts may contain original client names, speech, external attachment ma
 
 ## Content and design
 
-Before writing the full prompt, establish what the viewer should understand, believe or want, and a short sequence that delivers it. Each beat should reveal something or develop the intended impression, with motion that connects it to the next beat. Let the subject determine scene count and pacing; do not impose a fixed story formula. Use a single clear product story or visual mechanic. Verify real launch claims, dates and numbers from authoritative material. Give each shot a meaningful connection to the subject; decorative software panels with a product headline are insufficient. Keep benchmark labels, values, units and conditions together. Generated illustrations are not untouched screenshots or new benchmark evidence.
+Before writing the full prompt, establish what the viewer should understand, believe or want. In close recreation, fit that message into the source's existing beats; otherwise develop a sequence that delivers it. Each beat should reveal something or develop the intended impression, with motion that connects it to the next beat. Do not impose a fixed story formula. Use a single clear product story or visual mechanic. Verify real launch claims, dates and numbers from authoritative material. Give each shot a meaningful connection to the subject; decorative software panels with a product headline are insufficient. Keep benchmark labels, values, units and conditions together. Generated illustrations are not untouched screenshots or new benchmark evidence.
 
 Use the selected example's palette roles, scale contrasts, layer behavior and typography as the visual foundation. Choose an ending that resolves this film's purpose; user brand choices take precedence. Copy must be concise enough for its actual reading hold. Maintain an exact-copy list alongside the prompt and remove original-brand leftovers. Distinguish a source film's subject from tools used to produce our film.
 

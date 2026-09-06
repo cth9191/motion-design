@@ -4,7 +4,7 @@ Read only for authorized asset/video production. User-requested prompt review en
 
 ## Resolve the film and route
 
-Read the selected original source prompt and adaptation guide. Bind the content using [template-adaptation.md](template-adaptation.md), and create the compact before/after review record in [quality-review.md](quality-review.md). Select the strongest suitable accessible model, preferring current Seedance. Inspect duration, aspect ratio, resolution, reference roles/limits, audio support and prompt limits through actual tools.
+For gallery work, read the selected original prompt and adaptation guide, then use [template-adaptation.md](template-adaptation.md). For a supplied video, follow [video-reference.md](video-reference.md) with the clip as the source. Create the compact before/after review record in [quality-review.md](quality-review.md). Select the strongest suitable accessible model, preferring current Seedance. Inspect duration, aspect ratio, resolution, reference roles/limits, audio support and prompt limits through actual tools.
 
 Keep source endpoint/format as provenance. A Marketing Studio SaaS source and a Seedance adaptation are different routes; preserve the creative template while disclosing this difference. Do not guess an unavailable preset slug or interpret catalog exposure as account entitlement. Use read-only estimation for cost/access preflight when supported, never generation as a probe.
 
