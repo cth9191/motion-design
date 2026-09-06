@@ -192,7 +192,9 @@ You can also ask for reference images alone. Requesting images does not commissi
 
 **Choose → Adapt → Generate → Review**
 
-The skill starts from the example's **complete original prompt**, preserving its shot structure, camera moves, transitions, materials and ending. It adapts the copy, product actions and references to your subject, then submits the timed shots as **one complete film** through Higgsfield MCP.
+The skill starts from the closest example's **complete original prompt** and the takeaway your viewer should leave with. It retains the source's effective visual and motion techniques while adapting scenes, sequence, timing and transitions to your subject. The resolved timed sequence is submitted as **one complete film** through Higgsfield MCP.
+
+**Bring your own video:** a supplied clip defaults to a new generation guided by its sequence, framing, timing and camera moves, with your message fitted into those beats. It uses video-reference conditioning and compares the result against the actual source. Editing existing footage is a separate request. Ask for loose inspiration when you want more freedom. See [video references](skills/motion-design/references/video-reference.md).
 
 References are optional. A product photo can help preserve identity; a style frame can clarify appearance. Typography or abstract motion may need no images. After generation, the assistant checks the actual motion, product relevance, exact copy, audio and ending, then identifies any corrections needed.
 

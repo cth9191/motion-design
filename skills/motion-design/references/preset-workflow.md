@@ -29,7 +29,7 @@ For missing essentials, ask one bundled, concise question while continuing work 
 
 Preserve the user's current intent. Browsing or selecting a favorite alone is not a request to generate paid media. "Use this for my course and make the video" is production intent: write the brief and continue through asset creation, submission, review, and finishing without asking for the same authorization again. If the user asks for a draft, stop at the draft. If they request a review checkpoint, honor it.
 
-Follow [template-adaptation.md](template-adaptation.md) to bind the full template to the actual product. Preserve its detailed shot structure and motion instructions, map scene meaning to actual source assets, and reconcile every on-screen string. A burger ingredient tunnel might become a coffee-bean-to-cup assembly; a software workflow might be better served by the glass UI preset. Flag a poor fit and use the smallest explained adaptation that keeps the selected look. Never generate from only the short catalog description.
+Follow [template-adaptation.md](template-adaptation.md) to bind the full template to the actual product. Retain its useful detailed motion instructions, build the sequence around the viewer takeaway, map scene meaning to actual source assets, and reconcile every on-screen string. A burger ingredient tunnel might become a coffee-bean-to-cup assembly; a software workflow might be better served by the glass UI preset. Flag a poor fit and use the smallest explained adaptation that keeps the selected look. Never generate from only the short catalog description.
 
 Record a small `campaign.json` in the task's work area once production or substantial revision starts. Suggested fields:
 
@@ -60,7 +60,7 @@ Record a small `campaign.json` in the task's work area once production or substa
 
 Populate real values; do not submit placeholders. Keep generated files and job state in the production manifest described in `production.md`. The campaign record separates user-approved requirements from defaults so a later style change does not accidentally erase them.
 
-The full creative brief remains the project source of truth. Keep the original prompt format as directed by `creative-brief.md`, with the shot map and settings alongside it, then execute `production.md`. Generate images only when the shot plan and selected model benefit from them. Show actual outputs, never represent the gallery preview as a new result.
+The full creative brief remains the project source of truth. Use the source prompt format where useful, as directed by `creative-brief.md`, with the shot map and settings alongside it, then execute `production.md`. Generate images only when the shot plan and selected model benefit from them. Show actual outputs, never represent the gallery preview as a new result.
 
 ## Revisions
 

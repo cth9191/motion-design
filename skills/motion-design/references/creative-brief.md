@@ -1,6 +1,6 @@
 # Prompt format and supporting brief
 
-For a selected preset, read its archived original prompt in full. Keep that original format and section order for the adapted creative prompt. Do not translate it into a different master-brief skeleton. Carry over its shot descriptions, movement amplitudes, transitions, design rules and audio structure with targeted substitutions.
+For a selected preset, read its archived original prompt in full. Start with its useful format and detailed craft instructions. Establish the viewer takeaway and a short purposeful sequence, then adapt story-dependent sections and timings. Keep specific choreography in the final prompt; do not retain a scene merely to match source section order. No fixed beat count or story formula is required.
 
 Keep production metadata outside the creative prompt: source prompt path/hash, chosen model and native settings, reference assets/roles, evidence links, exact-copy inventory, departures and review/submission status. The full prompt must stand alone when accompanied by its declared references. Do not add local render scripts or mandatory compositing directions to a generative prompt.
 
@@ -30,7 +30,7 @@ Use music and synchronized effects by default for new launch/motion films; new n
 
 ## Timing and readability
 
-Keep source timings unless the user requests another duration or a factual/readability problem requires an explained adjustment. Label catalog timelines that retime a source. Every interval must fit the film, without missing time or conflicting overlaps. Shots/phases are editorial units inside one generation request.
+Set timings from the new actions, transitions and reading needs. Keep source timings where they serve this sequence; do not stretch scenes just to fill the duration. Label retiming or changed structure briefly. Every interval must fit the film, without missing time or conflicting overlaps. Shots/phases are editorial units inside one generation request.
 
 Use a compact exact-copy inventory to catch spelling, punctuation and original-brand leftovers. Keep values and qualifications readable at delivery size. Start by asking the model for the intended typography; only plan deterministic finishing when required by the task or a demonstrated failure, and disclose that change.
 
