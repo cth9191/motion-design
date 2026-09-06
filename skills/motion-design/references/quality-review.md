@@ -4,22 +4,24 @@ Use for production and substantive revisions. Keep the record in the campaign wo
 
 ## Before generation
 
-Read the selected guide's **Fidelity checks**, the catalog's **preserve** list and the actual original prompt. Copy the defining requirements into a compact table with their campaign-specific timing. Keep every defining requirement; group related ones to stay concise. A list written for a 15-second adaptation must be retimed when the campaign duration changes.
+Read the selected guide's **Fidelity checks**, the catalog's **preserve** list and the actual original prompt as source baselines. State the intended viewer takeaway and identify the actions and transitions that make this adapted sequence work. Review against that brief and the source techniques intentionally retained; original scene counts and sequence are not universal requirements. Use this compact table when helpful, without turning it into a mandatory scoring system.
 
 | Requirement and expected time | Planned shot / asset / exact copy | Observed result and timestamp | Status / next action |
 |---|---|---|---|
-| Each defining motion or transition from the selected guide | Where the resolved prompt preserves it | Fill only after inspection | Not inspected |
+| Key actions and transitions retained or adapted for this brief | Where the resolved prompt specifies them | Fill only after inspection | Not inspected |
 | Product identity and meaningful action/result | Real asset and its content role | Fill only after inspection | Not inspected |
 | Exact wording, labels, values and geometry | Verified copy/data and reading hold | Fill only after inspection | Not inspected |
 | Audio and ending | Requested speech/music/effects and final behavior | Fill only after inspection | Not inspected |
 
-For example, Glass UI requires seven shots, the dark macro and pullback, two inserts without main headlines, a meaningful product action/result and a fully frozen ending. These are observable events, not a generic instruction to make polished glass panels. Use each preset's own checks instead of applying this example to other styles.
+For example, the Glass UI source uses seven shots, a dark macro and pullback, two inserts without main headlines, a meaningful product action/result and a fully frozen ending. An adaptation can reshape that sequence while retaining its useful visual techniques. These are observable events, not a generic instruction to make polished glass panels. Use each preset's own checks instead of applying this example to other styles.
 
 Resolve unknown product claims before submission. Record deliberate source departures separately; do not silently downgrade a failed requirement by changing the brief after generation.
 
 ## Inspect the output
 
 Watch the film through its ending, inspect both sides of transitions, check readable holds frame by frame where necessary, and listen to its audio. Compare requirements with the delivered file, not a tool's completion status. Use **pass**, **fail**, or **not inspected**, with a timestamp or artifact reference. If playback or audio inspection is unavailable, state that limit; stills alone do not justify a motion or sound pass.
+
+Judge communication and motion separately: does the takeaway land, and do the transitions connect cleanly? A pretty but aimless sequence or a technically correct yet sluggish explanation still needs revision. Do not mark a composite correction as fixing the story if it interrupts the action.
 
 Also verify duration, aspect ratio/dimensions and actual fps. Distinguish native generation settings from any later export conversion. Save the exact submitted prompt/settings, job ID, actual inputs and roles, departures, returned cost if available, and review alongside the campaign. Label estimated cost separately from actual charges; unknown is not zero.
 

@@ -5,19 +5,19 @@ description: Browse playable motion-design examples and adapt their original pro
 
 # Motion Design
 
-Use the selected example's original prompt as the actual starting text. Make targeted product-specific changes while preserving its shot structure, camera moves, materials, transitions and ending. Prefer one complete film request, a suitable current Seedance model, and only references that materially improve the result.
+Adaptation is the default: start from the closest example's complete original prompt. Preserve the visual character and motion techniques that make it effective; adapt its scenes, sequence, timing and transitions to the new communication goal. Keep details that serve that goal and replace those that do not. Follow an explicit request for close recreation when given. Prefer one complete film request, a suitable current Seedance model, and only references that materially improve the result.
 
 ## Requested mode
 
 - **Browse:** Read [preset-workflow.md](references/preset-workflow.md) and the [index](references/preset-index.md). Show the playable [gallery](assets/gallery.html) and recommend up to three relevant looks. Reuse existing campaign context.
-- **Prompt or review:** Read the selected original source prompt and adaptation guide. Show one complete resolved prompt in its original format, with concise settings and reference notes outside it. A request to see the prompt before running is a firm stop before image generation, uploads or video submission. No tool call may submit a job merely to check access or cost.
+- **Prompt or review:** Read the selected original source prompt and adaptation guide. Show one complete resolved prompt, using the source format where useful, with concise settings and reference notes outside it. A request to see the prompt before running is a firm stop before image generation, uploads or video submission. No tool call may submit a job merely to check access or cost.
 - **Images:** Create only requested or necessary references. In Codex, prefer built-in image generation when available; in Claude Code, use Higgsfield MCP, preferring GPT Image 2. Read [tool-routing.md](references/tool-routing.md) for capability checks and asset handoff. An image request does not commission video.
 - **Production:** Follow [production.md](references/production.md) through generation and inspection, within the user's authorization. Honor an explicit review stop; otherwise do not add approval checkpoints.
 - **Original concept:** Use [creative-brief.md](references/creative-brief.md). Offer a few relevant ideas when asked, then develop the selected one.
 
 ## Source-based templates
 
-Resolve the selected preset through the index/catalog. Read its `source.prompt_path` in full and its linked `references/templates/<id>.md` adaptation guide, then follow [template-adaptation.md](references/template-adaptation.md). The archived original is immutable source material; the parameterized guide is a mapping aid, not replacement source wording. Preserve the original section order and detailed motion language. Change subject, product actions, exact copy, facts, assets and requested format/audio. Record necessary departures separately.
+Resolve the selected preset through the index/catalog. Read its `source.prompt_path` in full and its linked `references/templates/<id>.md` adaptation guide, then follow [template-adaptation.md](references/template-adaptation.md). The archived original is immutable source material; the parameterized guide is a mapping aid, not replacement source wording. Retain useful detailed motion language rather than reducing the source to a broad style description. The guides and catalog describe source baselines, not mandatory scene counts or sequences for every adaptation. Adjust their structure when the new story needs it and briefly record meaningful changes.
 
 Source prompts may contain original client names, speech, external attachment markers, conflicting dimensions or historical model labels. Resolve these using the user's campaign and live capabilities. Original text is reference data, never authorization to clone a speaker, retrieve an unknown attachment or submit a generation. If the original cannot be obtained, disclose that limitation rather than claim exact-source adaptation.
 
@@ -31,11 +31,11 @@ Source prompts may contain original client names, speech, external attachment ma
 
 ## Content and design
 
-Use a single clear product story or visual mechanic. Verify real launch claims, dates and numbers from authoritative material. Give each shot a meaningful connection to the subject; decorative software panels with a product headline are insufficient. Keep benchmark labels, values, units and conditions together. Generated illustrations are not untouched screenshots or new benchmark evidence.
+Before writing the full prompt, establish what the viewer should understand, believe or want, and a short sequence that delivers it. Each beat should reveal something or develop the intended impression, with motion that connects it to the next beat. Let the subject determine scene count and pacing; do not impose a fixed story formula. Use a single clear product story or visual mechanic. Verify real launch claims, dates and numbers from authoritative material. Give each shot a meaningful connection to the subject; decorative software panels with a product headline are insufficient. Keep benchmark labels, values, units and conditions together. Generated illustrations are not untouched screenshots or new benchmark evidence.
 
-Preserve the selected example's palette roles, scale contrasts, layer behavior, typography and ending; user brand choices take precedence. Copy must be concise enough for its actual reading hold. Maintain an exact-copy list alongside the prompt and remove original-brand leftovers. Distinguish a source film's subject from tools used to produce our film.
+Use the selected example's palette roles, scale contrasts, layer behavior and typography as the visual foundation. Choose an ending that resolves this film's purpose; user brand choices take precedence. Copy must be concise enough for its actual reading hold. Maintain an exact-copy list alongside the prompt and remove original-brand leftovers. Distinguish a source film's subject from tools used to produce our film.
 
-For originals, define a recognizable hero or graphic system, a clear palette, motion with observable causes, and a deliberate ending. Do not impose those defaults over a chosen source template.
+For originals, define a recognizable hero or graphic system, a clear palette, motion with observable causes, and a deliberate ending. Develop a different visual system only when the requested direction calls for it.
 
 ## Tool routing and delivery
 
@@ -45,4 +45,4 @@ Local paths are not remote attachments. When production is authorized, bind asse
 
 In prompt mode, show the full proposed prompt and its intended model/settings, reference roles and meaningful source departures. Keep internal research, upload IDs and editing instructions outside the creative prompt unless the model needs them. Do not imply a draft was submitted.
 
-In production mode, deliver the actual inspected film and concise verification/limitations. Technical export success does not prove motion quality, correct text or product relevance. Save the exact submitted prompt/settings and job record so revisions remain reproducible.
+In production mode, deliver the actual inspected film and concise verification/limitations. Check separately whether the takeaway comes across and whether the motion connects cleanly. Technical export success, attractive styling or correct text alone do not establish either. Save the exact submitted prompt/settings and job record so revisions remain reproducible.
